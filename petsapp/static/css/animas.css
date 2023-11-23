@@ -1,0 +1,110 @@
+
+.main-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 6em;
+    grid-row-gap: 5em;
+    margin: 40px 50px 40px 50px;   
+    margin-bottom: 170px;  
+    padding-right: 10px;
+    margin-left: 27px;
+}
+.animal-card {
+    width: 305px;
+    height: 500px;
+    /* margin: 50px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(32, 91, 218);
+    flex-direction: row;
+    transition: all 0.3s;
+    
+   
+}
+
+.animal-card:hover{
+    
+    transform: scale(1.1);
+}
+
+.animal-card img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.animal-card .animal-details {
+    width: 303px;
+    height: 297px;
+    /* padding: 15px; */
+    font-size: 20px;
+    background-color: rgb(251, 249, 249);
+    border-radius: 5px;
+}
+
+.animal-card .animal-details .animal-name {
+    /* padding: 8px; */
+    font-size: 24px;
+    color: maroon;
+    padding-left: 15px;
+}
+
+.animal-card .animal-details .rating {
+    color: rgb(239, 239, 98);
+    font-size: 28px;
+    padding-left: 15px;
+}
+
+.animal-card .animal-details .rating .star {
+    display: inline-block;
+    
+}
+
+.animal-card .animal-details .animal-description {
+    padding: 5px;
+    font-size: 15px;
+    letter-spacing: .7px;
+
+    
+}
+.animal-card .button {
+    height: 40px;
+    width: 130px;
+    margin: 9px 0 0 99px;
+    margin-top: -5px;
+    margin-left: 160px;
+    border: none;
+    background-color:rgb(115, 87, 199);
+    color: #fff;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 17px;
+    letter-spacing: .7px;
+    transition: all .3s ease;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    &:hover {
+      transition: all .3s ease;
+      background: rgb(176, 191, 75);
+      color: #fdfafa;
+    }
+  
+  }
+  .animal-card .shop-item-price{
+    font-size: 23px;
+    padding-left: 15px;
+  }
+  /* .headding .h1 {
+    font-size: 10px;
+    color: #60b246;
+       
+  } */
+  .body{
+    background-color: rgb(187, 142, 157);
+}
+
+
+
